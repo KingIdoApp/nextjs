@@ -1,0 +1,18 @@
+@import "globals.scss";
+
+.contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: $mainColor;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+}

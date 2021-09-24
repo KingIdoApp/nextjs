@@ -1,0 +1,58 @@
+@import "globals.scss";
+
+.portfolio {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    .texttitlecontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 700;
+            color: $mainColor;
+            padding-top: 15px;
+        }
+    }
+
+    .portfolioContainer {
+        display: flex;
+        flex-direction: row;
+
+        .left {
+            flex: 0.5;
+            overflow: hidden;
+
+            .container {
+                width: 900px;
+                height: 800px;
+                background: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                float: left;
+            }
+        }
+        .right {
+            flex: 0.5;
+            overflow: hidden;
+
+            .containerRight{
+                width: 900px;
+                height: 800px;
+                background-color: cornflowerblue;
+                border-radius: 50%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                float: left;
+                right: -150px;
+            }
+        }
+    }
+}
